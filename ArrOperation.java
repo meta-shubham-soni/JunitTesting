@@ -12,7 +12,7 @@ public class ArrOperation {
 	public int maxMirror(int[] nums) {
 	    int max = 0;
 	    assert nums.length != 0 : "Array is empty" ;
-	    if(arr.length == 0)
+	    if(nums.length == 0)
 	    	return  -1;
 	    for(int i = 0; i < nums.length; i++) {
 	        int count = 0;
@@ -68,7 +68,7 @@ public class ArrOperation {
 		boolean flag = false;
 	    assert arr.length != 0 : "Array is empty" ;
 	    if(arr.length == 0)
-	    	return  -1;
+	    	return  ret;
 		List<Integer> yInd = new ArrayList<Integer>();
 		List<Integer> xInd = new ArrayList<Integer>();
 		for(int i=0;i<arr.length;i++){
